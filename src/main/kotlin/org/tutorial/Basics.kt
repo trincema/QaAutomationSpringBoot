@@ -47,7 +47,7 @@ fun ifExpressions() {
     // If Expressions
     val a = 2
     val b = 3
-    val min = a < b ? a : b         // Kotlin does not support Ternary operator
+    // val min = a < b ? a : b         // Kotlin does not support Ternary operator
     val min2 = if (a < b) a else b  // Valid, if not a statement, its an expression, it returns a value
     val min3 = if (a < b) {
         a
